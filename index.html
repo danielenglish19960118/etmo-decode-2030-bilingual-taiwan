@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ETMO-DECODE: 500 題語源解碼遊戲引擎</title>
+    <title>ETMO-DECODE: 100 關語源解碼遊戲引擎</title>
     <style>
         :root {
             --bg-color: #0f172a;
@@ -22,42 +22,51 @@
             align-items: center;
             min-height: 100vh;
             margin: 0;
-            padding: 20px;
+            padding: 15px;
+            box-sizing: border-box;
         }
         .container {
             background: var(--card-bg);
-            padding: 30px;
+            padding: 25px;
             border-radius: 16px;
             box-shadow: 0 10px 25px rgba(0,0,0,0.5);
             max-width: 600px;
             width: 100%;
             border: 1px solid #334155;
+            box-sizing: border-box;
         }
         .header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+            gap: 8px;
         }
         .tag {
             background: rgba(56, 189, 248, 0.2);
             color: var(--accent);
             padding: 4px 12px;
             border-radius: 20px;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             font-weight: bold;
         }
-        .progress { font-size: 0.9rem; color: #94a3b8; }
+        .progress { font-size: 0.85rem; color: #94a3b8; }
         .root-box {
             background: #090d16;
-            padding: 15px;
+            padding: 12px 15px;
             border-radius: 8px;
             border-left: 4px solid var(--accent);
+            margin: 12px 0;
+        }
+        .clue-title { font-size: 0.8rem; color: #94a3b8; }
+        .root-name { font-size: 1.2rem; color: #f43f5e; font-weight: bold; margin-top: 2px; }
+        .question-text {
+            font-size: 1rem;
+            line-height: 1.5;
             margin: 15px 0;
         }
-        .clue-title { font-size: 0.85rem; color: #94a3b8; }
-        .root-name { font-size: 1.3rem; color: #f43f5e; font-weight: bold; }
-        .options { display: grid; gap: 10px; margin-top: 20px; }
+        .options { display: grid; gap: 10px; margin-top: 15px; }
         button {
             background: #334155;
             color: white;
@@ -69,6 +78,8 @@
             transition: all 0.2s;
             text-align: left;
             line-height: 1.4;
+            white-space: normal;
+            word-break: break-word;
         }
         button:hover { background: #475569; }
         .explanation {
@@ -76,10 +87,11 @@
             background: rgba(34, 197, 94, 0.15);
             border: 1px solid var(--correct);
             color: #4ade80;
-            padding: 15px;
+            padding: 12px 15px;
             border-radius: 8px;
-            margin-top: 20px;
+            margin-top: 15px;
             font-size: 0.9rem;
+            line-height: 1.4;
         }
         .next-btn {
             display: none;
@@ -89,6 +101,11 @@
             font-weight: bold;
             text-align: center;
             margin-top: 15px;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            border: none;
         }
         .next-btn:hover { background: #7dd3fc; }
     </style>
@@ -97,18 +114,18 @@
 
 <div class="container">
     <div class="header">
-        <span class="tag">ETMO-DECODE 500 關卡系統</span>
-        <span class="progress" id="progress">關卡 1 / 500</span>
+        <span class="tag">ETMO-DECODE 100 關解碼引擎</span>
+        <span class="progress" id="progress">關卡 1 / 100</span>
     </div>
     
-    <h2 id="q-title" style="font-size:1.2rem; margin:5px 0;">載入中...</h2>
+    <h2 id="q-title" style="font-size:1.1rem; margin:5px 0; color:#38bdf8;">載入題庫中...</h2>
 
     <div class="root-box">
         <div class="clue-title">核心語根 (Proto-Germanic / PIE Root)</div>
         <div class="root-name" id="root-display">-</div>
     </div>
 
-    <p id="question-text">-</p>
+    <div class="question-text" id="question-text">-</div>
 
     <div class="options" id="options-container"></div>
 
@@ -120,21 +137,27 @@
     let questions = [];
     let currentIndex = 0;
 
-    // 載入 JSON 數據庫
+    // 動態讀取同目錄下的 questions.json
     fetch('questions.json')
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) throw new Error('無法讀取 questions.json');
+            return response.json();
+        })
         .then(data => {
             questions = data;
             loadQuestion(currentIndex);
         })
         .catch(err => {
-            document.getElementById('q-title').innerText = '請確認已建立 questions.json 檔案！';
+            document.getElementById('q-titleinnerText').innerText = '系統初始化失敗';
+            document.getElementById('question-text').innerHTML = '⚠️ 請確認 GitHub 根目錄是否已正確放入 <b>questions.json</b> 檔案！';
         });
 
     function loadQuestion(index) {
         if(index >= questions.length) {
-            document.getElementById('q-title').innerText = '🎉 恭喜完成全套 500 關語源解碼挑戰！';
-            document.getElementById('question-text').innerText = '您已掌握 100 個日耳曼核心語根，解鎖超過 2000 個大考核心單字！';
+            document.getElementById('progress').innerText = '挑戰完成';
+            document.getElementById('q-title').innerText = '🎉 恭喜完成全套 100 關語源解碼挑戰！';
+            document.getElementById('root-display').innerText = 'ETMO-DECODE 數位資產認證';
+            document.getElementById('question-text').innerHTML = '您已成功掌握 20 個高頻日耳曼語根與 100 個大考核心單字底層邏輯。這套數位資產已準備好對接 B2B 補習班授權與政府雙語教學應用！';
             document.getElementById('options-container').innerHTML = '';
             document.getElementById('explanation-box').style.display = 'none';
             document.getElementById('next-btn').style.display = 'none';
@@ -143,8 +166,8 @@
 
         const q = questions[index];
         document.getElementById('progress').innerText = `關卡 ${index + 1} / ${questions.length}`;
-        document.getElementById('q-title').innerText = `【語根地圖 ${Math.floor(index/5)+1}】${q.topic || '單字底層解碼'}`;
-        document.getElementById('root-display').innerText = `${q.root} (${q.root_meaning})`;
+        document.getElementById('q-title').innerText = `【第 ${index + 1} 關】${q.topic || '單字底層解碼'}`;
+        document.getElementById('root-display').innerText = `${q.root} （原意：${q.root_meaning}）`;
         document.getElementById('question-text').innerHTML = q.question;
         
         const optContainer = document.getElementById('options-container');
@@ -155,7 +178,7 @@
 
         q.options.forEach((opt, idx) => {
             const btn = document.createElement('button');
-            btn.innerText = opt.text;
+            btn.innerHTML = opt.text;
             btn.onclick = () => selectOption(idx, q.correctIndex, q.explanation);
             optContainer.appendChild(btn);
         });
@@ -167,8 +190,11 @@
             btn.disabled = true;
             if(idx === correctIdx) {
                 btn.style.background = '#15803d';
+                btn.style.color = '#ffffff';
+                btn.style.borderColor = '#22c55e';
             } else if(idx === selectedIdx) {
                 btn.style.background = '#b91c1c';
+                btn.style.color = '#ffffff';
             }
         });
 
@@ -182,6 +208,7 @@
     function nextQuestion() {
         currentIndex++;
         loadQuestion(currentIndex);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 </script>
 
