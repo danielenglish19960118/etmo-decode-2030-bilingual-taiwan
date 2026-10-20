@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 1,
+    "topic": "INSPECT 語義解碼",
+    "root": "*spek- / *skowwōna",
+    "root_meaning": "看、觀察",
+    "question": "根據底層語根<b>『看、觀察』</b>與演化邏輯，下列何者正確代表<b>『檢查、審視』</b>？",
+    "options": [
+      {"text": "A. Inspect (向內審視)"},
+      {"text": "B. Prospect (向前看)"},
+      {"text": "C. Aspect (外觀)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>in- (向內) + spect (看)</b> ➔ 語意引申為『<b>檢查、審視</b>』。"
+  },
+  {
+    "id": 2,
+    "topic": "RETROSPECTIVE 語義解碼",
+    "root": "*spek- / *skowwōna",
+    "root_meaning": "看、觀察",
+    "question": "根據底層語根<b>『看、觀察』</b>與演化邏輯，下列何者正確代表<b>『回顧的、懷舊的』</b>？",
+    "options": [
+      {"text": "A. Retrospective (向後看)"},
+      {"text": "B. Introspective (向內看)"},
+      {"text": "C. Perspective (觀點)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>retro- (向後) + spect (看)</b> ➔ 語意引申為『<b>回顧的、懷舊的</b>』。"
+  },
+  {
+    "id": 3,
+    "topic": "SPECTATOR 語義解碼",
+    "root": "*spek- / *skowwōna",
+    "root_meaning": "看、觀察",
+    "question": "根據底層語根<b>『看、觀察』</b>與演化邏輯，下列何者正確代表<b>『觀眾、旁觀者』</b>？",
+    "options": [
+      {"text": "A. Spectator (觀看者)"},
+      {"text": "B. Inspector (檢查員)"},
+      {"text": "C. Speculator (投機者)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>spect (看) + -ator (人)</b> ➔ 語意引申為『<b>觀眾、旁觀者</b>』。"
+  },
+  {
+    "id": 4,
+    "topic": "CONSPICUOUS 語義解碼",
+    "root": "*spek- / *skowwōna",
+    "root_meaning": "看、觀察",
+    "question": "根據底層語根<b>『看、觀察』</b>與演化邏輯，下列何者正確代表<b>『顯眼的、明顯的』</b>？",
+    "options": [
+      {"text": "A. Conspicuous (大家都能看到的)"},
+      {"text": "B. Suspicious (懷疑的)"},
+      {"text": "C. Despicable (卑劣的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>con- (加強) + spic (看) + -uous</b> ➔ 語意引申為『<b>顯眼的、明顯的</b>』。"
+  },
+  {
+    "id": 5,
+    "topic": "DESPISE 語義解碼",
+    "root": "*spek- / *skowwōna",
+    "root_meaning": "看、觀察",
+    "question": "根據底層語根<b>『看、觀察』</b>與演化邏輯，下列何者正確代表<b>『輕視、鄙視』</b>？",
+    "options": [
+      {"text": "A. Despise (向下看人)"},
+      {"text": "B. Desperate (絕望的)"},
+      {"text": "C. Despite (儘管)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>de- (向下) + spise (看)</b> ➔ 語意引申為『<b>輕視、鄙視</b>』。"
+  },
+  {
+    "id": 6,
+    "topic": "OBSTACLE 語義解碼",
+    "root": "*sta- / *stō-",
+    "root_meaning": "站立、建立",
+    "question": "根據底層語根<b>『站立、建立』</b>與演化邏輯，下列何者正確代表<b>『障礙物』</b>？",
+    "options": [
+      {"text": "A. Obstacle (站在路中間阻擋)"},
+      {"text": "B. Institute (機構)"},
+      {"text": "C. Instance (例子)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>ob- (阻礙) + stacle (站立)</b> ➔ 語意引申為『<b>障礙物</b>』。"
+  },
+  {
+    "id": 7,
+    "topic": "SUPERSTITION 語義解碼",
+    "root": "*sta- / *stō-",
+    "root_meaning": "站立、建立",
+    "question": "根據底層語根<b>『站立、建立』</b>與演化邏輯，下列何者正確代表<b>『迷信』</b>？",
+    "options": [
+      {"text": "A. Superstition (站得比理智更高)"},
+      {"text": "B. Substance (物質)"},
+      {"text": "C. Substitute (替代品)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>super- (在上面) + stit (站立)</b> ➔ 語意引申為『<b>迷信</b>』。"
+  },
+  {
+    "id": 8,
+    "topic": "CONSTITUENT 語義解碼",
+    "root": "*sta- / *stō-",
+    "root_meaning": "站立、建立",
+    "question": "根據底層語根<b>『站立、建立』</b>與演化邏輯，下列何者正確代表<b>『成分、選民』</b>？",
+    "options": [
+      {"text": "A. Constituent (站在一起組成的)"},
+      {"text": "B. Restitution (恢復)"},
+      {"text": "C. Statue (雕像)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>con- (一起) + stit (站立)</b> ➔ 語意引申為『<b>成分、選民</b>』。"
+  },
+  {
+    "id": 9,
+    "topic": "STATUTORY 語義解碼",
+    "root": "*sta- / *stō-",
+    "root_meaning": "站立、建立",
+    "question": "根據底層語根<b>『站立、建立』</b>與演化邏輯，下列何者正確代表<b>『法定的、法律的』</b>？",
+    "options": [
+      {"text": "A. Statutory (站得住腳的條文)"},
+      {"text": "B. Stationary (靜止的)"},
+      {"text": "C. Status (地位)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>stat- (站立/制定) + -ory</b> ➔ 語意引申為『<b>法定的、法律的</b>』。"
+  },
+  {
+    "id": 10,
+    "topic": "STOUR (SCOTS) 語義解碼",
+    "root": "*sta- / *stō-",
+    "root_meaning": "站立、建立",
+    "question": "根據底層語根<b>『站立、建立』</b>與 Scots 語系演化邏輯，下列何者代表<b>『塵土、衝突風暴』</b>？",
+    "options": [
+      {"text": "A. Stour (站立對峙引發的風暴)"},
+      {"text": "B. Storm (暴風雨)"},
+      {"text": "C. Stout (結實的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>古日耳曼語 *stur- (站立對峙)</b> ➔ Scots 語系引申為『<b>塵土、衝突風暴</b>』。"
+  },
+  {
+    "id": 11,
+    "topic": "ANTICIPATE 語義解碼",
+    "root": "*cap- / *haf-",
+    "root_meaning": "抓住、拿取",
+    "question": "根據底層語根<b>『抓住、拿取』</b>與演化邏輯，下列何者正確代表<b>『預期、期望』</b>？",
+    "options": [
+      {"text": "A. Anticipate (預先抓取想法)"},
+      {"text": "B. Participate (參與)"},
+      {"text": "C. Recipient (接收者)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>anti- (預先) + cip (抓) + -ate</b> ➔ 語意引申為『<b>預期、期望</b>』。"
+  },
+  {
+    "id": 12,
+    "topic": "PERCEPTION 語義解碼",
+    "root": "*cap- / *haf-",
+    "root_meaning": "抓住、拿取",
+    "question": "根據底層語根<b>『抓住、拿取』</b>與演化邏輯，下列何者正確代表<b>『感知、觀念』</b>？",
+    "options": [
+      {"text": "A. Perception (完全抓取訊息)"},
+      {"text": "B. Reception (接收)"},
+      {"text": "C. Exception (例外)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>per- (完全) + cept (抓) + -ion</b> ➔ 語意引申為『<b>感知、觀念</b>』。"
+  },
+  {
+    "id": 13,
+    "topic": "SUSCEPTIBLE 語義解碼",
+    "root": "*cap- / *haf-",
+    "root_meaning": "抓住、拿取",
+    "question": "根據底層語根<b>『抓住、拿取』</b>與演化邏輯，下列何者正確代表<b>『易受影響的』</b>？",
+    "options": [
+      {"text": "A. Susceptible (從底下被抓取的)"},
+      {"text": "B. Acceptable (可接受的)"},
+      {"text": "C. Incredible (難以置信的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>sub- (在下面) + cept (抓) + -ible</b> ➔ 語意引申為『<b>易受影響的</b>』。"
+  },
+  {
+    "id": 14,
+    "topic": "CAPACITY 語義解碼",
+    "root": "*cap- / *haf-",
+    "root_meaning": "抓住、拿取",
+    "question": "根據底層語根<b>『抓住、拿取』</b>與演化邏輯，下列何者正確代表<b>『容量、能力』</b>？",
+    "options": [
+      {"text": "A. Capacity (能抓取裝載的量)"},
+      {"text": "B. Captivity (囚禁)"},
+      {"text": "C. Caption (標題)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>cap- (抓/裝) + -acity</b> ➔ 語意引申為『<b>容量、能力</b>』。"
+  },
+  {
+    "id": 15,
+    "topic": "EMANCIPATE 語義解碼",
+    "root": "*cap- / *haf-",
+    "root_meaning": "抓住、拿取",
+    "question": "根據底層語根<b>『抓住、拿取』</b>與演化邏輯，下列何者正確代表<b>『解放、釋放』</b>？",
+    "options": [
+      {"text": "A. Emancipate (從手抓中釋放)"},
+      {"text": "B. Manipulate (操作)"},
+      {"text": "C. Municipal (市立的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>e- (出) + man (手) + cip (抓)</b> ➔ 語意引申為『<b>解放、釋放</b>』。"
+  },
+  {
+    "id": 16,
+    "topic": "DEFERENCE 語義解碼",
+    "root": "*fer- / *ber-",
+    "root_meaning": "攜帶、承受",
+    "question": "根據底層語根<b>『攜帶、承受』</b>與演化邏輯，下列何者正確代表<b>『順從、尊敬』</b>？",
+    "options": [
+      {"text": "A. Deference (將態度向下攜帶)"},
+      {"text": "B. Difference (差異)"},
+      {"text": "C. Preference (偏好)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>de- (向下) + fer (帶) + -ence</b> ➔ 語意引申為『<b>順從、尊敬</b>』。"
+  },
+  {
+    "id": 17,
+    "topic": "INFERENCE 語義解碼",
+    "root": "*fer- / *ber-",
+    "root_meaning": "攜帶、承受",
+    "question": "根據底層語根<b>『攜帶、承受』</b>與演化邏輯，下列何者正確代表<b>『推論、引申』</b>？",
+    "options": [
+      {"text": "A. Inference (把意思帶入結論)"},
+      {"text": "B. Reference (參考)"},
+      {"text": "C. Conference (會議)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>in- (向內) + fer (帶) + -ence</b> ➔ 語意引申為『<b>推論、引申</b>』。"
+  },
+  {
+    "id": 18,
+    "topic": "PROLIFERATION 語義解碼",
+    "root": "*fer- / *ber-",
+    "root_meaning": "攜帶、承受",
+    "question": "根據底層語根<b>『攜帶、承受』</b>與演化邏輯，下列何者正確代表<b>『激增、繁殖』</b>？",
+    "options": [
+      {"text": "A. Proliferation (攜帶大量後代)"},
+      {"text": "B. Prolongation (延長)"},
+      {"text": "C. Preservation (保存)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>proli- (後代) + fer (帶) + -ation</b> ➔ 語意引申為『<b>激增、繁殖</b>』。"
+  },
+  {
+    "id": 19,
+    "topic": "FERTILE 語義解碼",
+    "root": "*fer- / *ber-",
+    "root_meaning": "攜帶、承受",
+    "question": "根據底層語根<b>『攜帶、承受』</b>與演化邏輯，下列何者正確代表<b>『肥沃的、多產的』</b>？",
+    "options": [
+      {"text": "A. Fertile (能攜帶果實的)"},
+      {"text": "B. Futile (無用的)"},
+      {"text": "C. Fragile (易碎的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>fert- (攜帶/結果) + -ile</b> ➔ 語意引申為『<b>肥沃的、多產的</b>』。"
+  },
+  {
+    "id": 20,
+    "topic": "SUFFER 語義解碼",
+    "root": "*fer- / *ber-",
+    "root_meaning": "攜帶、承受",
+    "question": "根據底層語根<b>『攜帶、承受』</b>與演化邏輯，下列何者正確代表<b>『受苦、遭受』</b>？",
+    "options": [
+      {"text": "A. Suffer (在底下承受重擔)"},
+      {"text": "B. Offer (提供)"},
+      {"text": "C. Transfer (轉移)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>sub- (在下面) + fer (承受)</b> ➔ 語意引申為『<b>受苦、遭受</b>』。"
+  },
+  {
+    "id": 21,
+    "topic": "DEDUCE 語義解碼",
+    "root": "*duc- / *tiuhan",
+    "root_meaning": "引導、拉",
+    "question": "根據底層語根<b>『引導、拉』</b>與演化邏輯，下列何者正確代表<b>『推論、演繹』</b>？",
+    "options": [
+      {"text": "A. Deduce (從大前提向下引導)"},
+      {"text": "B. Induce (歸納)"},
+      {"text": "C. Seduce (勾引)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>de- (向下) + duce (引導)</b> ➔ 語意引申為『<b>推論、演繹</b>』。"
+  },
+  {
+    "id": 22,
+    "topic": "CONDUCIVE 語義解碼",
+    "root": "*duc- / *tiuhan",
+    "root_meaning": "引導、拉",
+    "question": "根據底層語根<b>『引導、拉』</b>與演化邏輯，下列何者正確代表<b>『有助於...的』</b>？",
+    "options": [
+      {"text": "A. Conducive (引導大家走向目標)"},
+      {"text": "B. Seductive (誘人的)"},
+      {"text": "C. Productive (多產的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>con- (一起) + duc (引) + -ive</b> ➔ 語意引申為『<b>有助於...的</b>』。"
+  },
+  {
+    "id": 23,
+    "topic": "INDUCT 語義解碼",
+    "root": "*duc- / *tiuhan",
+    "root_meaning": "引導、拉",
+    "question": "根據底層語根<b>『引導、拉』</b>與演化邏輯，下列何者正確代表<b>『徵召、使就職』</b>？",
+    "options": [
+      {"text": "A. Induct (引導進入內部)"},
+      {"text": "B. Deduct (扣除)"},
+      {"text": "C. Abduct (綁架)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>in- (向內) + duct (引導)</b> ➔ 語意引申為『<b>徵召、使就職</b>』。"
+  },
+  {
+    "id": 24,
+    "topic": "SUBDUE 語義解碼",
+    "root": "*duc- / *tiuhan",
+    "root_meaning": "引導、拉",
+    "question": "根據底層語根<b>『引導、拉』</b>與演化邏輯，下列何者正確代表<b>『鎮壓、征服』</b>？",
+    "options": [
+      {"text": "A. Subdue (將對方拉至底下)"},
+      {"text": "B. Seduce (誘惑)"},
+      {"text": "C. Produce (生產)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>sub- (在下面) + duc (拉)</b> ➔ 語意引申為『<b>鎮壓、征服</b>』。"
+  },
+  {
+    "id": 25,
+    "topic": "EDUCATE 語義解碼",
+    "root": "*duc- / *tiuhan",
+    "root_meaning": "引導、拉",
+    "question": "根據底層語根<b>『引導、拉』</b>與演化邏輯，下列何者正確代表<b>『教育、啟發』</b>？",
+    "options": [
+      {"text": "A. Educate (將潛力引導出來)"},
+      {"text": "B. Eradicate (根除)"},
+      {"text": "C. Evaluate (評估)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>e- (出) + duc (引導) + -ate</b> ➔ 語意引申為『<b>教育、啟發</b>』。"
+  },
+  {
+    "id": 26,
+    "topic": "GENERATE 語義解碼",
+    "root": "*gen- / *kunją",
+    "root_meaning": "出生、產生",
+    "question": "根據底層語根<b>『出生、產生』</b>與演化邏輯，下列何者正確代表<b>『生成、發生』</b>？",
+    "options": [
+      {"text": "A. Generate (產生新生命或事物)"},
+      {"text": "B. Degenerate (退化)"},
+      {"text": "C. Regenerate (再生)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>gen (生) + -erate</b> ➔ 語意引申為『<b>生成、發生</b>』。"
+  },
+  {
+    "id": 27,
+    "topic": "GENUINE 語義解碼",
+    "root": "*gen- / *kunją",
+    "root_meaning": "出生、產生",
+    "question": "根據底層語根<b>『出生、產生』</b>與演化邏輯，下列何者正確代表<b>『純正的、真的』</b>？",
+    "options": [
+      {"text": "A. Genuine (具有純正血統的)"},
+      {"text": "B. General (一般的)"},
+      {"text": "C. Gentle (溫柔的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>gen- (血統/出生) + -uine</b> ➔ 語意引申為『<b>純正的、真的</b>』。"
+  },
+  {
+    "id": 28,
+    "topic": "INDIGENOUS 語義解碼",
+    "root": "*gen- / *kunją",
+    "root_meaning": "出生、產生",
+    "question": "根據底層語根<b>『出生、產生』</b>與演化邏輯，下列何者正確代表<b>『本土的、土著的』</b>？",
+    "options": [
+      {"text": "A. Indigenous (在當地出生的)"},
+      {"text": "B. Ingenious (機智的)"},
+      {"text": "C. Ingenuous (天真的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>indi- (在內部) + gen (生) + -ous</b> ➔ 語意引申為『<b>本土的、土著的</b>』。"
+  },
+  {
+    "id": 29,
+    "topic": "GENEROUS 語義解碼",
+    "root": "*gen- / *kunją",
+    "root_meaning": "出生、產生",
+    "question": "根據底層語根<b>『出生、產生』</b>與演化邏輯，下列何者正確代表<b>『慷慨的、大方的』</b>？",
+    "options": [
+      {"text": "A. Generous (出身名門且大氣的)"},
+      {"text": "B. Generic (通用的)"},
+      {"text": "C. Genesis (創世紀)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>gener (家族血統/好出身) + -ous</b> ➔ 語意引申為『<b>慷慨的、大方的</b>』。"
+  },
+  {
+    "id": 30,
+    "topic": "KIN (SCOTS/GERMANIC) 語義解碼",
+    "root": "*gen- / *kunją",
+    "root_meaning": "出生、產生",
+    "question": "根據底層語根<b>『出生、產生』</b>與日耳曼語族演化邏輯，下列何者代表<b>『親戚、血親』</b>？",
+    "options": [
+      {"text": "A. Kin (血緣同源親屬)"},
+      {"text": "B. King (國王)"},
+      {"text": "C. Kind (善良)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>古日耳曼語 *kunją (血統/家族)</b> ➔ 演變為現代英語/Scots 的『<b>親戚、血親</b>』。"
+  },
+  {
+    "id": 31,
+    "topic": "LECTURE 語義解碼",
+    "root": "*leg- / *les-",
+    "root_meaning": "挑選、收集、閱讀",
+    "question": "根據底層語根<b>『挑選、閱讀』</b>與演化邏輯，下列何者正確代表<b>『講課、演講』</b>？",
+    "options": [
+      {"text": "A. Lecture (挑選文字朗讀/講授)"},
+      {"text": "B. Collect (收集)"},
+      {"text": "C. Select (挑選)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>lect (選字/讀) + -ure</b> ➔ 語意引申為『<b>講課、演講</b>』。"
+  },
+  {
+    "id": 32,
+    "topic": "DILIGENCE 語義解碼",
+    "root": "*leg- / *les-",
+    "root_meaning": "挑選、收集、閱讀",
+    "question": "根據底層語根<b>『挑選、閱讀』</b>與演化邏輯，下列何者正確代表<b>『勤勉、刻苦』</b>？",
+    "options": [
+      {"text": "A. Diligence (細心挑選與投入)"},
+      {"text": "B. Intelligence (智慧)"},
+      {"text": "C. Negligence (疏忽)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>di- (分離/細心) + lig (挑選) + -ence</b> ➔ 語意引申為『<b>勤勉、刻苦</b>』。"
+  },
+  {
+    "id": 33,
+    "topic": "ELEGANT 語義解碼",
+    "root": "*leg- / *les-",
+    "root_meaning": "挑選、收集、閱讀",
+    "question": "根據底層語根<b>『挑選、閱讀』</b>與演化邏輯，下列何者正確代表<b>『優雅的、高雅的』</b>？",
+    "options": [
+      {"text": "A. Elegant (精挑細選出來的品味)"},
+      {"text": "B. Eligible (合格的)"},
+      {"text": "C. Illegal (非法的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>e- (出) + leg (挑選) + -ant</b> ➔ 語意引申為『<b>優雅的、高雅的</b>』。"
+  },
+  {
+    "id": 34,
+    "topic": "NEGLECT 語義解碼",
+    "root": "*leg- / *les-",
+    "root_meaning": "挑選、收集、閱讀",
+    "question": "根據底層語根<b>『挑選、閱讀』</b>與演化邏輯，下列何者正確代表<b>『忽略、疏忽』</b>？",
+    "options": [
+      {"text": "A. Neglect (不去做挑選與關注)"},
+      {"text": "B. Collect (收集)"},
+      {"text": "C. Select (挑選)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>neg- (不) + lect (挑選)</b> ➔ 語意引申為『<b>忽略、疏忽</b>』。"
+  },
+  {
+    "id": 35,
+    "topic": "LEGEND 語義解碼",
+    "root": "*leg- / *les-",
+    "root_meaning": "挑選、收集、閱讀",
+    "question": "根據底層語根<b>『挑選、閱讀』</b>與演化邏輯，下列何者正確代表<b>『傳說、傳奇』</b>？",
+    "options": [
+      {"text": "A. Legend (值得被閱讀的故事)"},
+      {"text": "B. Legal (法律的)"},
+      {"text": "C. Legion (軍團)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>leg (讀) + -end (應當...)</b> ➔ 語意引申為『<b>傳說、傳奇</b>』。"
+  },
+  {
+    "id": 36,
+    "topic": "MANUFACTURER 語義解碼",
+    "root": "*fac- / *dhē-",
+    "root_meaning": "做、建造",
+    "question": "根據底層語根<b>『做、建造』</b>與演化邏輯，下列何者正確代表<b>『製造商、工廠老闆』</b>？",
+    "options": [
+      {"text": "A. Manufacturer (用手親自製作的人)"},
+      {"text": "B. Benefactor (恩人)"},
+      {"text": "C. Artifact (人工製品)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>manu (手) + fact (做) + -urer</b> ➔ 語意引申為『<b>製造商</b>』。"
+  },
+  {
+    "id": 37,
+    "topic": "DEFICIT 語義解碼",
+    "root": "*fac- / *dhē-",
+    "root_meaning": "做、建造",
+    "question": "根據底層語根<b>『做、建造』</b>與演化邏輯，下列何者正確代表<b>『赤字、虧損』</b>？",
+    "options": [
+      {"text": "A. Deficit (做得不夠、有所欠缺)"},
+      {"text": "B. Faculty (才能/教職員)"},
+      {"text": "C. Perfect (完美的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>de- (向下/不足) + ficit (做/產出)</b> ➔ 語意引申為『<b>赤字、虧損</b>』。"
+  },
+  {
+    "id": 38,
+    "topic": "FACILITATE 語義解碼",
+    "root": "*fac- / *dhē-",
+    "root_meaning": "做、建造",
+    "question": "根據底層語根<b>『做、建造』</b>與演化邏輯，下列何者正確代表<b>『促進、使容易』</b>？",
+    "options": [
+      {"text": "A. Facilitate (使事情變得容易做)"},
+      {"text": "B. Fascinate (迷住)"},
+      {"text": "C. Fabricate (捏造)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>facile (容易的) + -itate (使...動詞化)</b> ➔ 語意引申為『<b>促進、使容易</b>』。"
+  },
+  {
+    "id": 39,
+    "topic": "BENEFICIAL 語義解碼",
+    "root": "*fac- / *dhē-",
+    "root_meaning": "做、建造",
+    "question": "根據底層語根<b>『做、建造』</b>與演化邏輯，下列何者正確代表<b>『有益的、有利的』</b>？",
+    "options": [
+      {"text": "A. Beneficial (做好事的、有益的)"},
+      {"text": "B. Artificial (人工的)"},
+      {"text": "C. Superficial (表面的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>bene- (好) + fic (做) + -ial</b> ➔ 語意引申為『<b>有益的、有利的</b>』。"
+  },
+  {
+    "id": 40,
+    "topic": "DEED (SCOTS/GERMANIC) 語義解碼",
+    "root": "*fac- / *dhē-",
+    "root_meaning": "做、建造",
+    "question": "根據日耳曼語根<b>『做、建造』</b>演化，下列何者在 Scots/English 中代表<b>『行為、功績』</b>？",
+    "options": [
+      {"text": "A. Deed (做出來的實際行動)"},
+      {"text": "B. Doom (厄運)"},
+      {"text": "C. Drink (喝)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>古日耳曼語 *dēdiz (做出的成果)</b> ➔ 現代英語/Scots 的『<b>行為、功績 (Deed)</b>』。"
+  },
+  {
+    "id": 41,
+    "topic": "TRANSMIT 語義解碼",
+    "root": "*mit- / *remittere",
+    "root_meaning": "送出、發射",
+    "question": "根據底層語根<b>『送出、發射』</b>與演化邏輯，下列何者正確代表<b>『傳輸、發射』</b>？",
+    "options": [
+      {"text": "A. Transmit (跨越過去送出訊號)"},
+      {"text": "B. Permit (允許)"},
+      {"text": "C. Submit (提交)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>trans- (跨越) + mit (送)</b> ➔ 語意引申為『<b>傳輸、發射</b>』。"
+  },
+  {
+    "id": 42,
+    "topic": "EMIT 語義解碼",
+    "root": "*mit- / *remittere",
+    "root_meaning": "送出、發射",
+    "question": "根據底層語根<b>『送出、發射』</b>與演化邏輯，下列何者正確代表<b>『散發、發出（光/熱/氣體）』</b>？",
+    "options": [
+      {"text": "A. Emit (向外送出能量或物質)"},
+      {"text": "B. Omit (省略)"},
+      {"text": "C. Commit (委託/犯錯)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>e- (向外) + mit (送出)</b> ➔ 語意引申為『<b>散發、發出</b>』。"
+  },
+  {
+    "id": 43,
+    "topic": "SUBMISSION 語義解碼",
+    "root": "*mit- / *remittere",
+    "root_meaning": "送出、發射",
+    "question": "根據底層語根<b>『送出、發射』</b>與演化邏輯，下列何者正確代表<b>『屈服、提交』</b>？",
+    "options": [
+      {"text": "A. Submission (將自己送到下方交出)"},
+      {"text": "B. Remission (寬恕)"},
+      {"text": "C. Intermittent (間歇的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>sub- (下方) + miss (送) + -ion</b> ➔ 語意引申為『<b>屈服、提交</b>』。"
+  },
+  {
+    "id": 44,
+    "topic": "PERMISSION 語義解碼",
+    "root": "*mit- / *remittere",
+    "root_meaning": "送出、發射",
+    "question": "根據底層語根<b>『送出、發射』</b>與演化邏輯，下列何者正確代表<b>『允許、許可』</b>？",
+    "options": [
+      {"text": "A. Permission (完全放行通過)"},
+      {"text": "B. Commission (委任)"},
+      {"text": "C. Mission (任務)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>per- (完全) + miss (放行/送) + -ion</b> ➔ 語意引申為『<b>允許、許可</b>』。"
+  },
+  {
+    "id": 45,
+    "topic": "INTERMITTENT 語義解碼",
+    "root": "*mit- / *remittere",
+    "root_meaning": "送出、發射",
+    "question": "根據底層語根<b>『送出、發射』</b>與演化邏輯，下列何者正確代表<b>『間歇的、斷斷續續的』</b>？",
+    "options": [
+      {"text": "A. Intermittent (在中間斷斷續續送出)"},
+      {"text": "B. Permanent (永久的)"},
+      {"text": "C. Prominent (傑出的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>inter- (在之間) + mit (送) + -tent</b> ➔ 語意引申為『<b>間歇的</b>』。"
+  },
+  {
+    "id": 46,
+    "topic": "POSTPONE 語義解碼",
+    "root": "*pon- / *posita",
+    "root_meaning": "放置、安放",
+    "question": "根據底層語根<b>『放置、安放』</b>與演化邏輯，下列何者正確代表<b>『延期、使延後』</b>？",
+    "options": [
+      {"text": "A. Postpone (放到後面去)"},
+      {"text": "B. Propose (提議)"},
+      {"text": "C. Depose (罷免)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>post- (後面) + pone (放置)</b> ➔ 語意引申為『<b>延期、使延後</b>』。"
+  },
+  {
+    "id": 47,
+    "topic": "EXPONENT 語義解碼",
+    "root": "*pon- / *posita",
+    "root_meaning": "放置、安放",
+    "question": "根據底層語根<b>『放置、安放』</b>與演化邏輯，下列何者正確代表<b>『指數、倡導者』</b>？",
+    "options": [
+      {"text": "A. Exponent (向外擺放呈現出來的數值)"},
+      {"text": "B. Opponent (對手)"},
+      {"text": "C. Component (零件)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>ex- (向外) + pon (放置) + -ent</b> ➔ 語意引申為『<b>指數、倡導者</b>』。"
+  },
+  {
+    "id": 48,
+    "topic": "JUBILANT 語義解碼",
+    "root": "*pon- / *posita",
+    "root_meaning": "放置、安放",
+    "question": "根據底層語根<b>『放置、安放』</b>與演化邏輯，下列何者正確代表<b>『擺設、組成部分』</b>？",
+    "options": [
+      {"text": "A. Component (共同擺在一起的零件)"},
+      {"text": "B. Proponent (支持者)"},
+      {"text": "C. Repository (倉庫)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>com- (共同) + pon (放置) + -ent</b> ➔ 語意引申為『<b>零件、組成部分</b>』。"
+  },
+  {
+    "id": 49,
+    "topic": "REPOSITORY 語義解碼",
+    "root": "*pon- / *posita",
+    "root_meaning": "放置、安放",
+    "question": "根據底層語根<b>『放置、安放』</b>與演化邏輯，下列何者正確代表<b>『倉庫、儲藏室』</b>？",
+    "options": [
+      {"text": "A. Repository (反复放置存放物品的地方)"},
+      {"text": "B. Depository (存款處)"},
+      {"text": "C. Superposition (疊加)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>re- (反覆/向後) + positor (放置處) + -y</b> ➔ 語意引申為『<b>倉庫、儲藏室</b>』。"
+  },
+  {
+    "id": 50,
+    "topic": "IMPOSE 語義解碼",
+    "root": "*pon- / *posita",
+    "root_meaning": "放置、安放",
+    "question": "根據底層語根<b>『放置、安放』</b>與演化邏輯，下列何者正確代表<b>『強制實行、強加於』</b>？",
+    "options": [
+      {"text": "A. Impose (把規定壓在別人身上)"},
+      {"text": "B. Expose (暴露)"},
+      {"text": "C. Compose (組成)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>im- (進入/加在上面) + pose (放置)</b> ➔ 語意引申為『<b>強制實行、強加於</b>』。"
+  },
+  {
+    "id": 51,
+    "topic": "EXTEND 語義解碼",
+    "root": "*ten- / *stretch",
+    "root_meaning": "伸展、拉長",
+    "question": "根據底層語根<b>『伸展、拉長』</b>與演化邏輯，下列何者正確代表<b>『延伸、擴大』</b>？",
+    "options": [
+      {"text": "A. Extend (向外伸展拉長)"},
+      {"text": "B. Pretend (偽裝)"},
+      {"text": "C. Attend (參加)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>ex- (向外) + tend (伸展)</b> ➔ 語意引申為『<b>延伸、擴大</b>』。"
+  },
+  {
+    "id": 52,
+    "topic": "ATTENTION 語義解碼",
+    "root": "*ten- / *stretch",
+    "root_meaning": "伸展、拉長",
+    "question": "根據底層語根<b>『伸展、拉長』</b>與演化邏輯，下列何者正確代表<b>『注意、專心』</b>？",
+    "options": [
+      {"text": "A. Attention (把心神伸向目標專注)"},
+      {"text": "B. Intention (意圖)"},
+      {"text": "C. Contention (爭奪)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>at- (朝向) + tent (伸展) + -ion</b> ➔ 語意引申為『<b>注意、專心</b>』。"
+  },
+  {
+    "id": 53,
+    "topic": "TENDENCY 語義解碼",
+    "root": "*ten- / *stretch",
+    "root_meaning": "伸展、拉長",
+    "question": "根據底層語根<b>『伸展、拉長』</b>與演化邏輯，下列何者正確代表<b>『傾向、癖好』</b>？",
+    "options": [
+      {"text": "A. Tendency (朝某個方向伸展的趨勢)"},
+      {"text": "B. Tension (緊張)"},
+      {"text": "C. Tense (時態/緊繃)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>tend (伸展) + -ency (性質)</b> ➔ 語意引申為『<b>傾向、趨勢</b>』。"
+  },
+  {
+    "id": 54,
+    "topic": "PRETENSE 語義解碼",
+    "root": "*ten- / *stretch",
+    "root_meaning": "伸展、拉長",
+    "question": "根據底層語根<b>『伸展、拉長』</b>與演化邏輯，下列何者正確代表<b>『藉口、虛偽』</b>？",
+    "options": [
+      {"text": "A. Pretense (預先伸出煙霧彈掩飾)"},
+      {"text": "B. Portent (預兆)"},
+      {"text": "C. Distend (膨脹)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>pre- (預先) + tense/tense (伸出掩護)</b> ➔ 語意引申為『<b>藉口、虛偽</b>』。"
+  },
+  {
+    "id": 55,
+    "topic": "THIN (SCOTS/GERMANIC) 語義解碼",
+    "root": "*ten- / *stretch",
+    "root_meaning": "伸展、拉長",
+    "question": "根據日耳曼語根<b>『伸展拉薄』</b>演化，下列何者在 Scots/English 中代表<b>『薄的、細的』</b>？",
+    "options": [
+      {"text": "A. Thin (被拉伸變薄的)"},
+      {"text": "B. Thick (厚的)"},
+      {"text": "C. Thing (事情)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>古日耳曼語 *þunnaz (被拉伸的)</b> ➔ 現代英語/Scots 的『<b>薄的 (Thin)</b>』。"
+  },
+  {
+    "id": 56,
+    "topic": "CONVENIENT 語義解碼",
+    "root": "*ven- / *com-",
+    "root_meaning": "來到、抵達",
+    "question": "根據底層語根<b>『來到、抵達』</b>與演化邏輯，下列何者正確代表<b>『便利的、合宜的』</b>？",
+    "options": [
+      {"text": "A. Convenient (剛好來到身邊配合需求)"},
+      {"text": "B. Prevent (預防)"},
+      {"text": "C. Invent (發明)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>con- (共同) + ven (來) + -ient</b> ➔ 語意引申為『<b>便利的、合宜的</b>』。"
+  },
+  {
+    "id": 57,
+    "topic": "INTERVENE 語義解碼",
+    "root": "*ven- / *com-",
+    "root_meaning": "來到、抵達",
+    "question": "根據底層語根<b>『來到、抵達』</b>與演化邏輯，下列何者正確代表<b>『干預、介入』</b>？",
+    "options": [
+      {"text": "A. Intervene (走到兩者之間介入)"},
+      {"text": "B. Supervene (隨之發生)"},
+      {"text": "C. Convene (召集)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>inter- (在之間) + vene (來)</b> ➔ 語意引申為『<b>干預、介入</b>』。"
+  },
+  {
+    "id": 58,
+    "topic": "AVENUE 語義解碼",
+    "root": "*ven- / *com-",
+    "root_meaning": "來到、抵達",
+    "question": "根據底層語根<b>『來到、抵達』</b>與演化邏輯，下列何者正確代表<b>『林蔭大道、大街』</b>？",
+    "options": [
+      {"text": "A. Avenue (通往目的地的抵達道路)"},
+      {"text": "B. Revenue (稅收)"},
+      {"text": "C. Event (事件)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>a- (朝向) + venue (到達處/路徑)</b> ➔ 語意引申為『<b>林蔭大道、途徑</b>』。"
+  },
+  {
+    "id": 59,
+    "topic": "REVENUE 語義解碼",
+    "root": "*ven- / *com-",
+    "root_meaning": "來到、抵達",
+    "question": "根據底層語根<b>『來到、抵達』</b>與演化邏輯，下列何者正確代表<b>『收益、國家歲入』</b>？",
+    "options": [
+      {"text": "A. Revenue (資金回流抵達國庫)"},
+      {"text": "B. Advent (降臨)"},
+      {"text": "C. Convention (大會)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>re- (回) + venue (到來)</b> ➔ 語意引申為『<b>收益、歲入</b>』。"
+  },
+  {
+    "id": 60,
+    "topic": "ADVENT 語義解碼",
+    "root": "*ven- / *com-",
+    "root_meaning": "來到、抵達",
+    "question": "根據底層語根<b>『來到、抵達』</b>與演化邏輯，下列何者正確代表<b>『出現、到來（尤指重大事件）』</b>？",
+    "options": [
+      {"text": "A. Advent (神聖或重大事物的到來)"},
+      {"text": "B. Event (事件)"},
+      {"text": "C. Prevent (防止)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>ad- (朝向) + vent (到來)</b> ➔ 語意引申為『<b>出現、降臨</b>』。"
+  },
+  {
+    "id": 61,
+    "topic": "EVIDENCE 語義解碼",
+    "root": "*vid- / *wit-",
+    "root_meaning": "看見、知曉",
+    "question": "根據底層語根<b>『看見、知曉』</b>與演化邏輯，下列何者正確代表<b>『證據、證明』</b>？",
+    "options": [
+      {"text": "A. Evidence (清楚呈現讓人看見的事實)"},
+      {"text": "B. Provide (提供)"},
+      {"text": "C. Supervisor (主管)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>e- (徹底) + vid (看見) + -ence</b> ➔ 語意引申為『<b>證據、證明</b>』。"
+  },
+  {
+    "id": 62,
+    "topic": "SUPERVISE 語義解碼",
+    "root": "*vid- / *wit-",
+    "root_meaning": "看見、知曉",
+    "question": "根據底層語根<b>『看見、知曉』</b>與演化邏輯，下列何者正確代表<b>『監督、管理』</b>？",
+    "options": [
+      {"text": "A. Supervise (從高處向下看管)"},
+      {"text": "B. Advise (建議)"},
+      {"text": "C. Revise (修訂)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>super- (在上方) + vise (看)</b> ➔ 語意引申為『<b>監督、管理</b>』。"
+  },
+  {
+    "id": 63,
+    "topic": "PROVISION 語義解碼",
+    "root": "*vid- / *wit-",
+    "root_meaning": "看見、知曉",
+    "question": "根據底層語根<b>『看見、知曉』</b>與演化邏輯，下列何者正確代表<b>『供應、條款』</b>？",
+    "options": [
+      {"text": "A. Provision (預先看見需求而準備的物資)"},
+      {"text": "B. Division (分割)"},
+      {"text": "C. Television (電視)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>pro- (預先) + vis (看) + -ion</b> ➔ 語意引申為『<b>預備物資、條款</b>』。"
+  },
+  {
+    "id": 64,
+    "topic": "IMPROVISE 語義解碼",
+    "root": "*vid- / *wit-",
+    "root_meaning": "看見、知曉",
+    "question": "根據底層語根<b>『看見、知曉』</b>與演化邏輯，下列何者正確代表<b>『即興表演、臨時湊合』</b>？",
+    "options": [
+      {"text": "A. Improvise (事先沒預見、臨時發揮)"},
+      {"text": "B. Envision (想像)"},
+      {"text": "C. Revise (校訂)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>im- (不) + pro- (預先) + vise (看見)</b> ➔ 語意引申為『<b>即興表演</b>』。"
+  },
+  {
+    "id": 65,
+    "topic": "WISE (SCOTS/GERMANIC) 語義解碼",
+    "root": "*vid- / *wit-",
+    "root_meaning": "看見、知曉",
+    "question": "根據日耳曼語根<b>『看見、知曉』</b>演化，下列何者在 Scots/English 中代表<b>『明智的、有智慧的』</b>？",
+    "options": [
+      {"text": "A. Wise (看得透徹、有見識的)"},
+      {"text": "B. Witness (證人)"},
+      {"text": "C. White (白色的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>古日耳曼語 *wīsaz (看過、知曉真相的)</b> ➔ 現代英語/Scots 的『<b>明智的 (Wise)</b>』。"
+  },
+  {
+    "id": 66,
+    "topic": "ADVOCATE 語義解碼",
+    "root": "*voc- / *wōks",
+    "root_meaning": "聲音、呼喊",
+    "question": "根據底層語根<b>『聲音、呼喊』</b>與演化邏輯，下列何者正確代表<b>『擁護者、倡導』</b>？",
+    "options": [
+      {"text": "A. Advocate (為他人發聲呼喊的人)"},
+      {"text": "B. Provoke (挑釁)"},
+      {"text": "C. Revoke (撤銷)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>ad- (朝向) + voc (聲音) + -ate</b> ➔ 語意引申為『<b>擁護者、倡導</b>』。"
+  },
+  {
+    "id": 67,
+    "topic": "PROVOCATIVE 語義解碼",
+    "root": "*voc- / *wōks",
+    "root_meaning": "聲音、呼喊",
+    "question": "根據底層語根<b>『聲音、呼喊』</b>與演化邏輯，下列何者正確代表<b>『挑釁的、刺激的』</b>？",
+    "options": [
+      {"text": "A. Provocative (向外大聲叫陣挑動情緒的)"},
+      {"text": "B. Evocative (喚起記憶的)"},
+      {"text": "C. Equivocal (模稜兩可的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>pro- (向前) + voc (聲音/呼喊) + -ative</b> ➔ 語意引申為『<b>挑釁的、刺激的</b>』。"
+  },
+  {
+    "id": 68,
+    "topic": "VOCATION 語義解碼",
+    "root": "*voc- / *wōks",
+    "root_meaning": "聲音、呼喊",
+    "question": "根據底層語根<b>『聲音、呼喊』</b>與演化邏輯，下列何者正確代表<b>『天職、行業』</b>？",
+    "options": [
+      {"text": "A. Vocation (聽到內心深處呼喚的志業)"},
+      {"text": "B. Vacation (假期)"},
+      {"text": "C. Vocal (歌唱的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>voc (呼喊) + -ation</b> ➔ 語意引申為『<b>天職、行業</b>』。"
+  },
+  {
+    "id": 69,
+    "topic": "REVOKE 語義解碼",
+    "root": "*voc- / *wōks",
+    "root_meaning": "聲音、呼喊",
+    "question": "根據底層語根<b>『聲音、呼喊』</b>與演化邏輯，下列何者正確代表<b>『撤銷、廢除』</b>？",
+    "options": [
+      {"text": "A. Revoke (把說出去的話大聲喊回來)"},
+      {"text": "B. Invoke (祈求)"},
+      {"text": "C. Convocate (召集)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>re- (回) + voke (呼喊)</b> ➔ 語意引申為『<b>撤銷、廢除</b>』。"
+  },
+  {
+    "id": 70,
+    "topic": "EQUIVOCAL 語義解碼",
+    "root": "*voc- / *wōks",
+    "root_meaning": "聲音、呼喊",
+    "question": "根據底層語根<b>『聲音、呼喊』</b>與演化邏輯，下列何者正確代表<b>『模稜兩可的、含糊的』</b>？",
+    "options": [
+      {"text": "A. Equivocal (發出多種相等聲音、說詞曖昧的)"},
+      {"text": "B. Unequivocal (明確的)"},
+      {"text": "C. Vocabulary (詞彙)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>equi- (相等) + voc (聲音) + -al</b> ➔ 語意引申為『<b>模稜兩可的</b>』。"
+  },
+  {
+    "id": 71,
+    "topic": "CONVERT 語義解碼",
+    "root": "*vert- / *turn",
+    "root_meaning": "轉動、改變",
+    "question": "根據底層語根<b>『轉動、改變』</b>與演化邏輯，下列何者正確代表<b>『轉變、皈依』</b>？",
+    "options": [
+      {"text": "A. Convert (徹底轉變方向或信仰)"},
+      {"text": "B. Divert (轉移注意力)"},
+      {"text": "C. Invert (上下顛倒)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>con- (加強) + vert (轉)</b> ➔ 語意引申為『<b>轉變、皈依</b>』。"
+  },
+  {
+    "id": 72,
+    "topic": "CONTROVERSY 語義解碼",
+    "root": "*vert- / *turn",
+    "root_meaning": "轉動、改變",
+    "question": "根據底層語根<b>『轉動、改變』</b>與演化邏輯，下列何者正確代表<b>『爭議、辯論』</b>？",
+    "options": [
+      {"text": "A. Controversy (對立雙方轉向對抗爭論)"},
+      {"text": "B. Universe (宇宙)"},
+      {"text": "C. Adversary (對手)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>contro- (相反) + vers (轉) + -y</b> ➔ 語意引申為『<b>爭議、辯論</b>』。"
+  },
+  {
+    "id": 73,
+    "topic": "SUBVERT 語義解碼",
+    "root": "*vert- / *turn",
+    "root_meaning": "轉動、改變",
+    "question": "根據底層語根<b>『轉動、改變』</b>與演化邏輯，下列何者正確代表<b>『顛覆、暗中破壞』</b>？",
+    "options": [
+      {"text": "A. Subvert (從底下將體制翻轉破壞)"},
+      {"text": "B. Pervert (變態/曲解)"},
+      {"text": "C. Avert (避免)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>sub- (下方) + vert (轉)</b> ➔ 語意引申為『<b>顛覆、暗中破壞</b>』。"
+  },
+  {
+    "id": 74,
+    "topic": "INVERT 語義解碼",
+    "root": "*vert- / *turn",
+    "root_meaning": "轉動、改變",
+    "question": "根據底層語根<b>『轉動、改變』</b>與演化邏輯，下列何者正確代表<b>『使上下倒置、使反向』</b>？",
+    "options": [
+      {"text": "A. Invert (向內翻轉、上下顛倒)"},
+      {"text": "B. Extrovert (外向者)"},
+      {"text": "C. Introvert (內向者)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>in- (向內/反轉) + vert (轉)</b> ➔ 語意引申為『<b>使上下倒置</b>』。"
+  },
+  {
+    "id": 75,
+    "topic": "ADVERSARY 語義解碼",
+    "root": "*vert- / *turn",
+    "root_meaning": "轉動、改變",
+    "question": "根據底層語根<b>『轉動、改變』</b>與演化邏輯，下列何者正確代表<b>『對手、敵手』</b>？",
+    "options": [
+      {"text": "A. Adversary (轉過身來與之對抗的人)"},
+      {"text": "B. Anniversary (周年紀念)"},
+      {"text": "C. Divergent (分歧的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>ad- (朝向) + vers (轉) + -ary</b> ➔ 語意引申為『<b>對手、敵手</b>』。"
+  },
+  {
+    "id": 76,
+    "topic": "DESCRIBE 語義解碼",
+    "root": "*scrib- / *write",
+    "root_meaning": "書寫、切割",
+    "question": "根據底層語根<b>『書寫、劃線』</b>與演化邏輯，下列何者正確代表<b>『描寫、形容』</b>？",
+    "options": [
+      {"text": "A. Describe (用文字把樣貌勾勒出來)"},
+      {"text": "B. Prescribe (開處方)"},
+      {"text": "C. Subscribe (訂閱)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>de- (向下) + scribe (書寫)</b> ➔ 語意引申為『<b>描寫、形容</b>』。"
+  },
+  {
+    "id": 77,
+    "topic": "MANUSCRIPT 語義解碼",
+    "root": "*scrib- / *write",
+    "root_meaning": "書寫、切割",
+    "question": "根據底層語根<b>『書寫、劃線』</b>與演化邏輯，下列何者正確代表<b>『手稿、原稿』</b>？",
+    "options": [
+      {"text": "A. Manuscript (親手寫出來的稿件)"},
+      {"text": "B. Postscript (附言)"},
+      {"text": "C. Transcript (抄本)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>manu (手) + script (書寫物)</b> ➔ 語意引申為『<b>手稿、原稿</b>』。"
+  },
+  {
+    "id": 78,
+    "topic": "PRESCRIBE 語義解碼",
+    "root": "*scrib- / *write",
+    "root_meaning": "書寫、切割",
+    "question": "根據底層語根<b>『書寫、劃線』</b>與演化邏輯，下列何者正確代表<b>『開處方、規定』</b>？",
+    "options": [
+      {"text": "A. Prescribe (事先寫好規範或藥方)"},
+      {"text": "B. Proscribe (禁止)"},
+      {"text": "C. Transcribe (轉錄)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>pre- (預先) + scribe (寫)</b> ➔ 語意引申為『<b>開處方、規定</b>』。"
+  },
+  {
+    "id": 79,
+    "topic": "SUBSCRIBE 語義解碼",
+    "root": "*scrib- / *write",
+    "root_meaning": "書寫、切割",
+    "question": "根據底層語根<b>『書寫、劃線』</b>與演化邏輯，下列何者正確代表<b>『訂閱、簽署同意』</b>？",
+    "options": [
+      {"text": "A. Subscribe (在文件下方簽名同意)"},
+      {"text": "B. Inscribe (題字)"},
+      {"text": "C. Circumscribe (限制)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>sub- (下方) + scribe (書寫)</b> ➔ 語意引申為『<b>訂閱、簽名</b>』。"
+  },
+  {
+    "id": 80,
+    "topic": "TRANSCRIPT 語義解碼",
+    "root": "*scrib- / *write",
+    "root_meaning": "書寫、切割",
+    "question": "根據底層語根<b>『書寫、劃線』</b>與演化邏輯，下列何者正確代表<b>『成績單、抄本』</b>？",
+    "options": [
+      {"text": "A. Transcript (從原件轉錄過來的文字記錄)"},
+      {"text": "B. Script (劇本)"},
+      {"text": "C. Descriptor (描述符)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>trans- (跨越/轉) + script (寫好的文本)</b> ➔ 語意引申為『<b>成績單、抄本</b>』。"
+  },
+  {
+    "id": 81,
+    "topic": "COMPLEX 語義解碼",
+    "root": "*plek- / *fold",
+    "root_meaning": "重疊、摺疊",
+    "question": "根據底層語根<b>『摺疊、重疊』</b>與演化邏輯，下列何者正確代表<b>『複雜的』</b>？",
+    "options": [
+      {"text": "A. Complex (層層交織摺疊在一起的)"},
+      {"text": "B. Simplex (單純的)"},
+      {"text": "C. Duplex (雙層的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>com- (共同) + plex (摺疊)</b> ➔ 語意引申為『<b>複雜的</b>』。"
+  },
+  {
+    "id": 82,
+    "topic": "APPLICABLE 語義解碼",
+    "root": "*plek- / *fold",
+    "root_meaning": "重疊、摺疊",
+    "question": "根據底層語根<b>『摺疊、重疊』</b>與演化邏輯，下列何者正確代表<b>『適用的、可實行的』</b>？",
+    "options": [
+      {"text": "A. Applicable (能緊密貼合應用的)"},
+      {"text": "B. Explicit (明確的)"},
+      {"text": "C. Implicit (含蓄的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>ap- (朝向) + plic (摺疊/貼合) + -able</b> ➔ 語意引申為『<b>適用的</b>』。"
+  },
+  {
+    "id": 83,
+    "topic": "EXPLICIT 語義解碼",
+    "root": "*plek- / *fold",
+    "root_meaning": "重疊、摺疊",
+    "question": "根據底層語根<b>『摺疊、重疊』</b>與演化邏輯，下列何者正確代表<b>『明確的、清楚的』</b>？",
+    "options": [
+      {"text": "A. Explicit (把摺疊起來的東西攤開展現的)"},
+      {"text": "B. Implicit (含糊的)"},
+      {"text": "C. Duplicate (複製)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>ex- (向外) + plic (展開摺疊)</b> ➔ 語意引申為『<b>明確的、清楚的</b>』。"
+  },
+  {
+    "id": 84,
+    "topic": "ACCOMPLICE 語義解碼",
+    "root": "*plek- / *fold",
+    "root_meaning": "重疊、摺疊",
+    "question": "根據底層語根<b>『摺疊、重疊』</b>與演化邏輯，下列何者正確代表<b>『共犯、同謀』</b>？",
+    "options": [
+      {"text": "A. Accomplice (捲入同一夥複雜事件的人)"},
+      {"text": "B. Multiple (多重的)"},
+      {"text": "C. Reply (回覆)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>ac- (共同) + complice (糾纏在一起的人)</b> ➔ 語意引申為『<b>共犯、同謀</b>』。"
+  },
+  {
+    "id": 85,
+    "topic": "DUPLICATE 語義解碼",
+    "root": "*plek- / *fold",
+    "root_meaning": "重疊、摺疊",
+    "question": "根據底層語根<b>『摺疊、重疊』</b>與演化邏輯，下列何者正確代表<b>『複製、副本』</b>？",
+    "options": [
+      {"text": "A. Duplicate (折疊成雙倍、製造複本)"},
+      {"text": "B. Triplicate (三倍)"},
+      {"text": "C. Complicate (使複雜)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>du- (兩倍) + plic (摺疊) + -ate</b> ➔ 語意引申為『<b>複製、副本</b>』。"
+  },
+  {
+    "id": 86,
+    "topic": "PRESIDENT 語義解碼",
+    "root": "*sed- / *sit",
+    "root_meaning": "坐下、安定",
+    "question": "根據底層語根<b>『坐下、安定』</b>與演化邏輯，下列何者正確代表<b>『總統、董事長』</b>？",
+    "options": [
+      {"text": "A. President (坐在最前面主持會議的人)"},
+      {"text": "B. Resident (居民)"},
+      {"text": "C. Accident (意外)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>pre- (前方) + sid (坐) + -ent</b> ➔ 語意引申為『<b>總統、董事長</b>』。"
+  },
+  {
+    "id": 87,
+    "topic": "RESIDENT 語義解碼",
+    "root": "*sed- / *sit",
+    "root_meaning": "坐下、安定",
+    "question": "根據底層語根<b>『坐下、安定』</b>與演化邏輯，下列何者正確代表<b>『居民、常駐者』</b>？",
+    "options": [
+      {"text": "A. Resident (在當地長期安居定居的人)"},
+      {"text": "B. Sedentary (久坐的)"},
+      {"text": "C. Disside (持異議)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>re- (反覆/持續) + sid (坐) + -ent</b> ➔ 語意引申為『<b>居民、常駐者</b>』。"
+  },
+  {
+    "id": 88,
+    "topic": "DISSIDENT 語義解碼",
+    "root": "*sed- / *sit",
+    "root_meaning": "坐不在同一邊",
+    "question": "根據底層語根<b>『坐下、安定』</b>與演化邏輯，下列何者正確代表<b>『持異議者、異見分子』</b>？",
+    "options": [
+      {"text": "A. Dissident (坐在對立面持不同意見的人)"},
+      {"text": "B. Assiduous (勤勉的)"},
+      {"text": "C. President (總統)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>dis- (分開/對立) + sid (坐) + -ent</b> ➔ 語意引申為『<b>持異議者</b>』。"
+  },
+  {
+    "id": 89,
+    "topic": "ASSIDUOUS 語義解碼",
+    "root": "*sed- / *sit",
+    "root_meaning": "坐下、安定",
+    "question": "根據底層語根<b>『坐下、安定』</b>與演化邏輯，下列何者正確代表<b>『刻苦的、百折不撓的』</b>？",
+    "options": [
+      {"text": "A. Assiduous (坐得住冷板凳、全神貫注的)"},
+      {"text": "B. Sedate (安靜的)"},
+      {"text": "C. Subsist (存活)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>as- (朝向) + sid (坐) + -uous</b> ➔ 語意引申為『<b>刻苦的、勤勉的</b>』。"
+  },
+  {
+    "id": 90,
+    "topic": "SEDENTARY 語義解碼",
+    "root": "*sed- / *sit",
+    "root_meaning": "坐下、安定",
+    "question": "根據底層語根<b>『坐下、安定』</b>與演化邏輯，下列何者正確代表<b>『久坐不動的』</b>？",
+    "options": [
+      {"text": "A. Sedentary (長時間坐著不動的生活型態)"},
+      {"text": "B. Session (開會期)"},
+      {"text": "C. Subsidiary (子公司)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>sed (坐) + -entary (形容詞字尾)</b> ➔ 語意引申為『<b>久坐不動的</b>』。"
+  },
+  {
+    "id": 91,
+    "topic": "CONTACT 語義解碼",
+    "root": "*tag- / *touch",
+    "root_meaning": "接觸、觸摸",
+    "question": "根據底層語根<b>『接觸、觸摸』</b>與演化邏輯，下列何者正確代表<b>『接觸、聯絡』</b>？",
+    "options": [
+      {"text": "A. Contact (雙方互相接觸碰觸)"},
+      {"text": "B. Tactful (圓滑的)"},
+      {"text": "C. Contagious (具傳染性的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>con- (共同) + tact (接觸)</b> ➔ 語意引申為『<b>接觸、聯絡</b>』。"
+  },
+  {
+    "id": 92,
+    "topic": "CONTAGIOUS 語義解碼",
+    "root": "*tag- / *touch",
+    "root_meaning": "接觸、觸摸",
+    "question": "根據底層語根<b>『接觸、觸摸』</b>與演化邏輯，下列何者正確代表<b>『具傳染性的』</b>？",
+    "options": [
+      {"text": "A. Contagious (透過碰觸傳播病毒的)"},
+      {"text": "B. Intact (完好無缺的)"},
+      {"text": "C. Tactical (戰術的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>con- (共同) + tag (接觸) + -ious</b> ➔ 語意引申為『<b>具傳染性的</b>』。"
+  },
+  {
+    "id": 93,
+    "topic": "TACTFUL 語義解碼",
+    "root": "*tag- / *touch",
+    "root_meaning": "接觸、觸摸",
+    "question": "根據底層語根<b>『接觸、觸摸』</b>與演化邏輯，下列何者正確代表<b>『機智的、圓滑得體的』</b>？",
+    "options": [
+      {"text": "A. Tactful (懂得拿捏分寸、處事得體的)"},
+      {"text": "B. Tangible (有形的)"},
+      {"text": "C. Integer (整數)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>tact (觸覺/分寸感) + -ful</b> ➔ 語意引申為『<b>圓滑得體的</b>』。"
+  },
+  {
+    "id": 94,
+    "topic": "TANGIBLE 語義解碼",
+    "root": "*tag- / *touch",
+    "root_meaning": "接觸、觸摸",
+    "question": "根據底層語根<b>『接觸、觸摸』</b>與演化邏輯，下列何者正確代表<b>『有形的、可觸摸的』</b>？",
+    "options": [
+      {"text": "A. Tangible (可以用手摸得到的實體)"},
+      {"text": "B. Intangible (無形的)"},
+      {"text": "C. Contingent (視情況而定的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>tang (觸摸) + -ible (可...的)</b> ➔ 語意引申為『<b>有形的、可觸摸的</b>』。"
+  },
+  {
+    "id": 95,
+    "topic": "INTACT 語義解碼",
+    "root": "*tag- / *touch",
+    "root_meaning": "接觸、觸摸",
+    "question": "根據底層語根<b>『接觸、觸摸』</b>與演化邏輯，下列何者正確代表<b>『完整無缺的』</b>？",
+    "options": [
+      {"text": "A. Intact (從未被破壞或碰觸損害的)"},
+      {"text": "B. Attack (攻擊)"},
+      {"text": "C. Tactless (不得體的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>in- (不) + tact (觸碰/破壞)</b> ➔ 語意引申為『<b>完整無缺的</b>』。"
+  },
+  {
+    "id": 96,
+    "topic": "DEPEND 語義解碼",
+    "root": "*pend- / *hang",
+    "root_meaning": "懸掛、秤量",
+    "question": "根據底層語根<b>『懸掛、秤量』</b>與演化邏輯，下列何者正確代表<b>『依賴、取決於』</b>？",
+    "options": [
+      {"text": "A. Depend (懸掛在別人身上作為支撐)"},
+      {"text": "B. Suspend (暫停/懸掛)"},
+      {"text": "C. Expend (花費)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>de- (向下) + pend (懸掛)</b> ➔ 語意引申為『<b>依賴、取決於</b>』。"
+  },
+  {
+    "id": 97,
+    "topic": "SUSPEND 語義解碼",
+    "root": "*pend- / *hang",
+    "root_meaning": "懸掛、秤量",
+    "question": "根據底層語根<b>『懸掛、秤量』</b>與演化邏輯，下列何者正確代表<b>『暫停、吊銷、懸掛』</b>？",
+    "options": [
+      {"text": "A. Suspend (把權利或進度懸掛在半空中暫停)"},
+      {"text": "B. Independent (獨立的)"},
+      {"text": "C. Pension (退休金)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>sus- (在下方懸掛) + pend (掛)</b> ➔ 語意引申為『<b>暫停、吊掛</b>』。"
+  },
+  {
+    "id": 98,
+    "topic": "EXPENDITURE 語義解碼",
+    "root": "*pend- / *hang",
+    "root_meaning": "懸掛、秤量",
+    "question": "根據底層語根<b>『懸掛、秤量』</b>與演化邏輯，下列何者正確代表<b>『開支、經費支出』</b>？",
+    "options": [
+      {"text": "A. Expenditure (秤量過後付出的金錢開銷)"},
+      {"text": "B. Compensate (補償)"},
+      {"text": "C. Appendix (附錄)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>ex- (向外) + pend (秤量/支付) + -iture</b> ➔ 語意引申為『<b>開支、經費支出</b>』。"
+  },
+  {
+    "id": 99,
+    "topic": "PENSION 語義解碼",
+    "root": "*pend- / *hang",
+    "root_meaning": "懸掛、秤量",
+    "question": "根據底層語根<b>『懸掛、秤量』</b>與演化邏輯，下列何者正確代表<b>『退休金、養老金』</b>？",
+    "options": [
+      {"text": "A. Pension (定期秤量發放的養老津貼)"},
+      {"text": "B. Impending (逼近的)"},
+      {"text": "C. Pensive (沉思的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>pens (秤量/支付) + -ion</b> ➔ 語意引申為『<b>退休金、津貼</b>』。"
+  },
+  {
+    "id": 100,
+    "topic": "IMPENDING 語義解碼",
+    "root": "*pend- / *hang",
+    "root_meaning": "懸掛、秤量",
+    "question": "根據底層語根<b>『懸掛、秤量』</b>與演化邏輯，下列何者正確代表<b>『即將發生的、逼近的』</b>？",
+    "options": [
+      {"text": "A. Impending (像達摩克利斯之劍懸在頭頂將至的)"},
+      {"text": "B. Dependable (可靠的)"},
+      {"text": "C. Perpendicular (垂直的)"}
+    ],
+    "correctIndex": 0,
+    "explanation": "解碼公式：<b>im- (上方) + pending (懸掛)</b> ➔ 語意引申為『<b>即將發生的、逼近的</b>』。"
+  }
+]
