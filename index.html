@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ETMO-DECODE: 語源解碼探案 MVP</title>
+    <title>ETMO-DECODE: 500 題語源解碼遊戲引擎</title>
     <style>
         :root {
             --bg-color: #0f172a;
@@ -11,6 +11,7 @@
             --accent: #38bdf8;
             --text-light: #f8fafc;
             --correct: #22c55e;
+            --wrong: #ef4444;
         }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -28,9 +29,15 @@
             padding: 30px;
             border-radius: 16px;
             box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-            max-width: 500px;
+            max-width: 600px;
             width: 100%;
             border: 1px solid #334155;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
         }
         .tag {
             background: rgba(56, 189, 248, 0.2);
@@ -39,19 +46,17 @@
             border-radius: 20px;
             font-size: 0.85rem;
             font-weight: bold;
-            display: inline-block;
-            margin-bottom: 12px;
         }
-        h1 { font-size: 1.5rem; margin-top: 0; }
+        .progress { font-size: 0.9rem; color: #94a3b8; }
         .root-box {
             background: #090d16;
             padding: 15px;
             border-radius: 8px;
             border-left: 4px solid var(--accent);
-            margin-bottom: 20px;
+            margin: 15px 0;
         }
-        .clue-title { font-size: 0.9rem; color: #94a3b8; }
-        .root-name { font-size: 1.4rem; color: #f43f5e; font-weight: bold; }
+        .clue-title { font-size: 0.85rem; color: #94a3b8; }
+        .root-name { font-size: 1.3rem; color: #f43f5e; font-weight: bold; }
         .options { display: grid; gap: 10px; margin-top: 20px; }
         button {
             background: #334155;
@@ -59,58 +64,129 @@
             border: none;
             padding: 12px 16px;
             border-radius: 8px;
-            font-size: 1rem;
+            font-size: 0.95rem;
             cursor: pointer;
             transition: all 0.2s;
             text-align: left;
+            line-height: 1.4;
         }
         button:hover { background: #475569; }
-        .success-message {
+        .explanation {
             display: none;
-            background: rgba(34, 197, 94, 0.2);
+            background: rgba(34, 197, 94, 0.15);
             border: 1px solid var(--correct);
             color: #4ade80;
             padding: 15px;
             border-radius: 8px;
             margin-top: 20px;
+            font-size: 0.9rem;
         }
+        .next-btn {
+            display: none;
+            width: 100%;
+            background: var(--accent);
+            color: #0f172a;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 15px;
+        }
+        .next-btn:hover { background: #7dd3fc; }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <span class="tag">ETMO-DECODE 語源解碼遊戲 MVP</span>
-    <h1>關卡 01：解碼「觀察者」的秘密</h1>
+    <div class="header">
+        <span class="tag">ETMO-DECODE 500 關卡系統</span>
+        <span class="progress" id="progress">關卡 1 / 500</span>
+    </div>
     
+    <h2 id="q-title" style="font-size:1.2rem; margin:5px 0;">載入中...</h2>
+
     <div class="root-box">
-        <div class="clue-title">原始日耳曼語根 (Proto-Germanic / PIE)</div>
-        <div class="root-name">*spek- / *skowwōna (原意：看、觀察)</div>
+        <div class="clue-title">核心語根 (Proto-Germanic / PIE Root)</div>
+        <div class="root-name" id="root-display">-</div>
     </div>
 
-    <p><strong>【探案任務】</strong> 根據底層語根「看（*spek-）」，加上拉丁Prefix「retro-（向後）」，推導出下列哪一個單字代表<b>「回顧的、懷舊的」</b>？</p>
+    <p id="question-text">-</p>
 
-    <div class="options">
-        <button onclick="checkAnswer(false)">A. Prospective (pro- 向前 + spect 看)</button>
-        <button onclick="checkAnswer(true)">B. Retrospective (retro- 向後 + spect 看)</button>
-        <button onclick="checkAnswer(false)">C. Introspective (intro- 向內 + spect 看)</button>
-    </div>
+    <div class="options" id="options-container"></div>
 
-    <div id="result" class="success-message">
-        🎉 <b>解碼成功！</b><br>
-        • <b>Retro-</b> (向後) + <b>spect</b> (看) + <b>-ive</b> (形容詞) ＝ 往回看的 ➔ <b>回顧的</b>。<br>
-        掌握 1 個語根，即可瞬間解鎖大考 15 個核心單字！
-    </div>
+    <div id="explanation-box" class="explanation"></div>
+    <button id="next-btn" class="next-btn" onclick="nextQuestion()">進入下一關 ➔</button>
 </div>
 
 <script>
-    function checkAnswer(isCorrect) {
-        if(isCorrect) {
-            document.getElementById('result').style.display = 'block';
-        } else {
-            alert('❌ 密碼錯誤！提示：尋找代表「向後看」的 Prefix (前綴)。');
+    let questions = [];
+    let currentIndex = 0;
+
+    // 載入 JSON 數據庫
+    fetch('questions.json')
+        .then(response => response.json())
+        .then(data => {
+            questions = data;
+            loadQuestion(currentIndex);
+        })
+        .catch(err => {
+            document.getElementById('q-title').innerText = '請確認已建立 questions.json 檔案！';
+        });
+
+    function loadQuestion(index) {
+        if(index >= questions.length) {
+            document.getElementById('q-title').innerText = '🎉 恭喜完成全套 500 關語源解碼挑戰！';
+            document.getElementById('question-text').innerText = '您已掌握 100 個日耳曼核心語根，解鎖超過 2000 個大考核心單字！';
+            document.getElementById('options-container').innerHTML = '';
+            document.getElementById('explanation-box').style.display = 'none';
+            document.getElementById('next-btn').style.display = 'none';
+            return;
         }
+
+        const q = questions[index];
+        document.getElementById('progress').innerText = `關卡 ${index + 1} / ${questions.length}`;
+        document.getElementById('q-title').innerText = `【語根地圖 ${Math.floor(index/5)+1}】${q.topic || '單字底層解碼'}`;
+        document.getElementById('root-display').innerText = `${q.root} (${q.root_meaning})`;
+        document.getElementById('question-text').innerHTML = q.question;
+        
+        const optContainer = document.getElementById('options-container');
+        optContainer.innerHTML = '';
+        
+        document.getElementById('explanation-box').style.display = 'none';
+        document.getElementById('next-btn').style.display = 'none';
+
+        q.options.forEach((opt, idx) => {
+            const btn = document.createElement('button');
+            btn.innerText = opt.text;
+            btn.onclick = () => selectOption(idx, q.correctIndex, q.explanation);
+            optContainer.appendChild(btn);
+        });
+    }
+
+    function selectOption(selectedIdx, correctIdx, expText) {
+        const buttons = document.querySelectorAll('#options-container button');
+        buttons.forEach((btn, idx) => {
+            btn.disabled = true;
+            if(idx === correctIdx) {
+                btn.style.background = '#15803d';
+            } else if(idx === selectedIdx) {
+                btn.style.background = '#b91c1c';
+            }
+        });
+
+        const expBox = document.getElementById('explanation-box');
+        expBox.innerHTML = `<b>【解碼鏈結解析】</b><br>${expText}`;
+        expBox.style.display = 'block';
+
+        document.getElementById('next-btn').style.display = 'block';
+    }
+
+    function nextQuestion() {
+        currentIndex++;
+        loadQuestion(currentIndex);
     }
 </script>
+
+</body>
+</html>
 
 </body>
 </html>
